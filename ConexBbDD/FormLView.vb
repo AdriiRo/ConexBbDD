@@ -23,4 +23,10 @@
             column.Width = -2
         Next
     End Sub
+
+    Private Sub btnIrAgregar_Click(sender As Object, e As EventArgs) Handles btnIrAgregar.Click
+        Me.Hide()
+        AgregarBBDD.Show()
+
+    End Sub
 End Class

@@ -4,7 +4,8 @@ Imports System.Data.SQLite
 Module Conexiones
     Public Sub conexionSQLite()
         '::: Ruta y conexión a SQLite
-        Dim con As New SQLiteConnection("Data Source=C:\Users\adria\Desktop\videoclub.db; Version=3")
+        'Dim con As New SQLiteConnection("Data Source=C:\Users\adria\Desktop\videoclub.db; Version=3")
+        Dim con As New SQLiteConnection("Data Source=C:\Users\Diurno\Desktop\videoclub.db; Version=3")
         Dim query As String = "SELECT * FROM peliculas" ' Reemplaza con el nombre de tu tabla.
 
         '::: Intentamos abrir conexión y cargar datos
